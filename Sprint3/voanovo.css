@@ -1,0 +1,213 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Inter:wght@400;700&display=swap');
+
+body {
+    background-color: #F8FCFC;
+    font-family: 'Inter', sans-serif;
+}
+
+/*cabeçalho*/   
+
+#barra {
+    position: absolute;
+    width: 100%;
+    height: 158px;
+    left: 0px;
+    top: 0px;
+    background: #22A0A0;
+}
+
+#logo {
+    position: absolute;
+    width: 102px;
+    height: 76px;
+    left: 275px;
+    top: 41px;
+    background: url(Imagens/logob\ 2.png);
+}
+
+#container {
+    position: relative;
+    margin-left: 229px;
+    width: 250px;
+}
+
+#container input {
+    position: absolute;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 38px;
+    left: 294px;
+    top: 79px;
+    background: #FFFFFF;
+}
+
+#container img {
+    position: absolute;
+    left: 514px;
+    top: 83px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav#menu ul {
+    list-style: none;
+    position: absolute;
+    top: 67px;
+    left: 817px;
+}
+
+nav#menu li {
+    font-family: 'Dosis', sans-serif;
+    font-size: 13.5pt;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+nav#menu ul li:hover, nav#menu ul li.sublinhado{
+    padding: 5px;
+    border-bottom: 2px solid #FFFFFF;
+   
+}
+
+/* Corpo da pagina */
+
+#interface {
+    min-height: 1170px;
+    color: black;
+    width: 1200px;
+    margin: auto;
+    margin-top: -8px;   
+}
+
+header#cabecalho h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16pt;
+    height: 75px;
+    max-width: 100%;
+    margin-top: 205px;
+    text-align: center;
+}
+
+section#esquerdo {
+    position: relative;
+    width: 540px;
+    float: left;
+    margin-top: -30px;
+    padding-left: 145px;
+    padding-right: 17px;
+    border-right: 1px solid #22A0A0;
+}
+
+
+.imagem1 img{
+    width: 477px;
+}
+
+#noticiasecundaria figure{
+    width: 215px; 
+    margin: 5px; 
+} 
+
+#noticiasecundaria figure img{
+    width: 214.3px;
+}
+
+figure h2 {
+    font-size: 10.5pt;
+    font-family: Inter;
+    font-weight: bold;
+    
+}
+
+figure h3 {
+    font-family: Arial;
+    font-weight: 700px;
+    font-size: 11pt;
+    text-align: right;
+    
+}
+
+figure p {
+    font-family: 'Inter', sans-serif;
+    font-size: 10.5pt;
+}
+
+#noticiasecundaria {
+    display: flex;
+    width: 492px;
+    flex-wrap: wrap;
+    padding: 34px;
+    justify-content: space-between;
+}
+
+
+aside#direito {
+    
+    display: block;
+    width: 360px;
+    position: absolute;
+    margin-top: -30px;
+    right: 232px;
+}
+
+/* Rodapé */
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 115px;
+    left: 0px; 
+    margin-bottom: 0px;
+    background: #22A0A0;
+}
+
+#informacao h4 {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 11pt;
+    font-weight: 400px;
+    left: 227px;
+    top: -7px;
+    color: #FFFFFF;
+    display: block;
+    width: 300px;    
+}
+
+#informacao ul {
+    list-style: none;
+    position: relative;
+    width: 200px;
+    height: 20pt;
+    left: 235px;
+    top: -45px;
+    float: left;    
+}
+
+#informacao li {
+    font-family: 'Inter', sans-serif;
+    font-size: 11.3pt;
+    line-height: 17px;
+    display: list-item;
+    color: #FFFFFF;
+    padding: 4px;
+}
+
+div#logo2 {
+    position: absolute;
+    width: 102px;
+    height: 76px;
+    left: 970px;
+    top: 13px;
+    background: url(Imagens/logob\ 2.png);
+}
